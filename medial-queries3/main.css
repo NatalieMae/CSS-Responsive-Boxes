@@ -1,3 +1,21 @@
 body {
   background: peachpuff;
+  width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/*body div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin-bottom: 20px;
+}*/
+.container {
+  display: flex;
+  flex-flow:wrap-reverse;
+  width: 90%;
+  
+  justify-content: space-between;
 }

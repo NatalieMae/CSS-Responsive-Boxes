@@ -1,3 +1,47 @@
-body {
+/*body {
   background: blanchedalmond;
+}*/
+.container {
+  display: flex;
+  flex-direction: row;
+  font-size: 30px;
+  text-align: center;
+  border: 25%;
+  
 }
+.a {
+  display: flex;
+  background-color: rgb(177, 177, 233);
+  padding: 10px;
+  flex-direction: row;
+ 
+  
+}
+.b {
+  display: flex;
+  background-color: lightgray;
+  padding: 50px;
+  width:40%;
+  height: 75px;
+  
+  
+}
+.c {
+  display: flex;
+  background-color: rgb(141, 141, 199);
+  padding: 50px;
+  min-width: 10%;
+  height: 250px;
+  flex-basis:15%;
+  
+  
+  
+}
+
+@media screen and (max-width: 700px) {
+  .container {   
+    flex-direction:row;
+  }
+}
+  
+
